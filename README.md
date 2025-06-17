@@ -20,6 +20,7 @@ Visualização dos colaboradores que geraram maiores despesas com hospedagem, fa
 
 Filtros de obra, data, tipo de hospedagem e nome do funcionário permitem análises dinâmicas e personalizadas conforme a necessidade do gestor.
 
+![Dashboard de Hospedagem](Dashboard-controle-de-hotelaria-Hipo-1.png)
 
 
 ## 🔧 Ferramentas utilizadas
