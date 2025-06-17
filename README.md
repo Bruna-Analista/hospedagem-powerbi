@@ -1,6 +1,6 @@
 # 📊 Controle de Hospedagens - Power BI
 
-Dashboard criado para acompanhar os custos e total de hospedagens de funcionários em diferentes obras ao longo de 2025.
+Este relatório foi desenvolvido para **otimizar a visualização e gestão das hospedagens de funcionários** nas obras, atendendo a uma demanda real da empresa.
 
 
 🧩 Visão Geral do Dashboard
@@ -9,7 +9,7 @@ Dashboard criado para acompanhar os custos e total de hospedagens de funcionári
 
 💡 É interessante observar que, no mês de março/2025, embora a obra E apresente o maior custo total em reais no período, uma análise mais detalhada revela que a obra C possui o maior custo diário por pessoa. Esse tipo de comparação permite extrair insights mais precisos e avaliar os custos de forma realista, obra por obra.
 
-Os indicadores e gráficos do dashboard auxiliam na identificação das frentes de trabalho que estão gerando maiores despesas, oferecendo uma visão estratégica para o controle financeiro.
+
 
 ![Dashboard de Hospedagem](DashboardcontroledehotelariaHipo1.png)
 
