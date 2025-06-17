@@ -15,8 +15,4 @@ Dashboard criado para acompanhar os gastos e quantidade de hospedagens de funcio
 - Excel (como fonte de dados)
 - Transformações via Power Query
 
-## 📷 Prints
-!(Dashboard  controle de hotelaria Hipo 1.png)
-!(Dashboard  controle de hotelaria Hipo 2.png)
-!(Dashboard  controle de hotelaria Hipo 3.png)
-!(Dashboard  controle de hotelaria Hipo 4.png)
+
