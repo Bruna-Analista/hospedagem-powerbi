@@ -2,12 +2,28 @@
 
 Este relatório foi desenvolvido para **otimizar a visualização e gestão das hospedagens de funcionários** nas obras, atendendo a uma demanda real da empresa.
 
+---
+### 🛠️ Tecnologias e Conceitos
 
-🧩 Visão Geral do Dashboard
+**Ferramentas utilizadas:**
 
-📝 Gráficos de linhas e colunas exibem o custo total de hospedagem por obra, as 3 obras com maiores custos no período, cartões separando custo com diárias, lavanderia, consumo de água e totais, média de alojados por dia e custo médio de alojados por dia.
+![Power BI](https://img.shields.io/badge/Power%20BI-FFDC00?style=for-the-badge&logo=Power%20BI&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power%20Query-2C2C2C?style=for-the-badge&logo=microsoft&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-1E4D8B?style=for-the-badge&logo=databricks&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
+---
 
-💡 É interessante observar que, no mês de março/2025, embora a obra E apresente o maior custo total em reais no período, uma análise mais detalhada revela que a obra C possui o maior custo diário por pessoa. Esse tipo de comparação permite extrair insights mais precisos e avaliar os custos de forma realista, obra por obra.
+### 🔄 Modelagem e ETL
+
+- ETL realizado no Power Query (limpeza, unpivot, filtros)
+- Medidas DAX: `SUM`, `AVERAGE`, `DISTINCTCOUNT`
+- Criação de tabela calendário personalizada para análises temporais
+- Relacionamentos (joins) definidos entre fato e dimensões (modelo star schema)
+- Design visual feito no **Canva**, com foco em clareza e leitura
+
+
+---
+### 🧩 Visão Geral do Dashboard
 
 
 
@@ -22,13 +38,6 @@ Este relatório foi desenvolvido para **otimizar a visualização e gestão das 
 🧩 Distribuição por Funcionário
 
 
-📝 Visualização dos colaboradores que geraram as maiores despesas com hospedagem, destacando o top 3 funcionários com maior custo de alojamento e o top 3 hotéis com maior custo médio por dia.
-
-Cartões exibem os principais indicadores: custo total, custo médio diário, total de hotéis utilizados e média de alojados por dia.
-
-💡 Além disso, um gráfico de mapa facilita a análise geográfica, permitindo identificar regiões com variações nos preços e oferecendo insights importantes para o controle individual das despesas.
-
-
 ![Dashboard de Hospedagem](DashboardcontroledehotelariaHipo3.png)
 
 
@@ -40,8 +49,4 @@ Cartões exibem os principais indicadores: custo total, custo médio diário, to
 
 [![Abrir no Power BI](https://img.shields.io/badge/Abrir%20no%20Power%20BI-%2300AC47?logo=powerbi&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiMWNkZjIyNjgtOTNlNS00ZmI1LWJmZjItNDc2Yjc4ODRmYjVkIiwidCI6ImQ1ZTYxZGFhLTZjOGUtNDUzMy1hZmUzLWRhYWE4MjBiY2Y1NSJ9)
 
-## 🔧 Ferramentas utilizadas
 
-- Power BI Desktop
-- Excel (como fonte de dados)
-- Transformações via Power Query
