@@ -27,7 +27,7 @@ Este relatório foi desenvolvido para **otimizar a visualização e gestão das 
 
 
 
-![Dashboard de Hospedagem](DashboardcontroledehotelariaHipo1.png)
+![Dashboard de Hospedagem](hospedagem_33.png)
 
 
 
